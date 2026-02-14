@@ -1,7 +1,7 @@
 import axios from "axios";
 
 const api = axios.create({
-  baseURL: "http://localhost:9000", 
+  baseURL: "https://cv-maker-server.vercel.app", 
   timeout: 10000,
 });
 
@@ -30,3 +30,4 @@ api.interceptors.response.use(
 );
 
 export default api;
+
