@@ -29,3 +29,7 @@ body {
 #root {
   min-height: 100vh;
 }
+
+span._Button_10byl_1._Button--primary_10byl_48._Button--medium_10byl_29 {
+    display: none;
+}
